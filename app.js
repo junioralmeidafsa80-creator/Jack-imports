@@ -1,6 +1,6 @@
 /* CONFIGURE ANTES DE PUBLICAR: coloque o número de WhatsApp no formato internacional, sem +, espaços ou traços. */
 const CONFIG = {
-  whatsappNumber: "5500000000000", // TROQUE pelo número real da loja. Ex.: 5575999999999
+  whatsappNumber: "5575981806654", // TROQUE pelo número real da loja. Ex.: 5575999999999
   currency: "BRL",
   ageGateEnabled: true
 };

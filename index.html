@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090707">
+  <meta name="description" content="Jack Imports — bebidas selecionadas, atendimento pelo WhatsApp e compra prática.">
+  <title>Jack Imports | Bebidas Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">JACK IMPORTS <span>•</span> SUA BEBIDA FAVORITA, SEM SAIR DE CASA</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Jack Imports início">
+      <span class="brand-mark">♛</span>
+      <span class="brand-name">JACK <b>IMPORTS</b><small>DISTRIBUIDORA DE BEBIDAS</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#categorias">Categorias</a><a href="#produtos">Destaques</a><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchToggle" aria-label="Mostrar busca">⌕</button>
+      <button class="cart-button" id="openCart" aria-label="Abrir carrinho">Sacola <span id="cartCount">0</span></button>
+      <button class="menu-button" id="menuToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> SELEÇÃO PREMIUM</p>
+        <h1>Grandes marcas.<br><em>Momentos especiais.</em></h1>
+        <p class="hero-copy">Encontre suas bebidas favoritas em um só lugar. Uma experiência de compra simples, elegante e segura.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#produtos">Explorar produtos <span>↗</span></a><a class="text-link" href="#categorias">Descobrir categorias</a></div>
+        <div class="hero-note"><span class="note-line"></span><span>QUALIDADE EM CADA ESCOLHA</span></div>
+      </div>
+      <div class="hero-art" aria-label="Composição decorativa de garrafas premium">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="hero-bottle bottle-back"><div class="bottle-neck"></div><div class="bottle-label">JACK<br><small>SELECT</small></div></div>
+        <div class="hero-bottle bottle-front"><div class="bottle-neck"></div><div class="bottle-label"><small>RESERVA</small><strong>J</strong><small>IMPORTS</small></div></div>
+        <div class="glass-shape"></div><div class="art-caption">JACK IMPORTS <span>EST. 2026</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span class="trust-icon">◇</span><strong>Seleção cuidadosa</strong><small>Produtos e marcas selecionados</small></div>
+      <div><span class="trust-icon">↗</span><strong>Atendimento próximo</strong><small>Fale com nossa equipe</small></div>
+      <div><span class="trust-icon">▣</span><strong>Compra transparente</strong><small>Condições informadas antes de pagar</small></div>
+      <div><span class="trust-icon">♧</span><strong>Compra responsável</strong><small>Venda somente para maiores de 18 anos</small></div>
+    </section>
+
+    <section class="section categories-section" id="categorias">
+      <div class="section-heading"><div><p class="eyebrow">ENCONTRE O QUE PROCURA</p><h2>Explore por <em>categoria</em></h2></div><p>Uma seleção para diferentes gostos e ocasiões.</p></div>
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-card active" data-category="Todas"><span class="category-symbol">✦</span><strong>Todas</strong><small>Ver catálogo</small></button>
+        <button class="category-card" data-category="Whisky"><span class="category-symbol">♜</span><strong>Whisky</strong><small>Notas marcantes</small></button>
+        <button class="category-card" data-category="Gin"><span class="category-symbol">✧</span><strong>Gin</strong><small>Clássicos e aromas</small></button>
+        <button class="category-card" data-category="Vodka"><span class="category-symbol">❖</span><strong>Vodka</strong><small>Leve e versátil</small></button>
+        <button class="category-card" data-category="Cervejas"><span class="category-symbol">♧</span><strong>Cervejas</strong><small>Para compartilhar</small></button>
+        <button class="category-card" data-category="Vinhos"><span class="category-symbol">◉</span><strong>Vinhos</strong><small>Para cada ocasião</small></button>
+        <button class="category-card" data-category="Energéticos"><span class="category-symbol">ϟ</span><strong>Energéticos</strong><small>Energia para o momento</small></button>
+        <button class="category-card" data-category="Combos"><span class="category-symbol">▤</span><strong>Combos</strong><small>Combinações especiais</small></button>
+      </div>
+    </section>
+
+    <section class="section products-section" id="produtos">
+      <div class="section-heading"><div><p class="eyebrow">ESCOLHAS JACK IMPORTS</p><h2>Produtos em <em>destaque</em></h2></div><label class="search-wrap" id="searchWrap"><span>⌕</span><input id="productSearch" type="search" placeholder="Buscar produto..." aria-label="Buscar produto"></label></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalog-note">Os produtos e preços exibidos são exemplos demonstrativos. Atualize o catálogo antes de publicar a loja.</p>
+    </section>
+
+    <section class="feature-banner" id="sobre">
+      <div class="feature-emblem">J<span>♛</span>I</div>
+      <div><p class="eyebrow">A EXPERIÊNCIA JACK IMPORTS</p><h2>Seu próximo brinde<br><em>começa aqui.</em></h2><p>Atendimento atencioso, catálogo organizado e uma experiência pensada para você.</p></div>
+      <a class="button button-outline" href="#contato">Fale conosco <span>↗</span></a>
+    </section>
+
+    <section class="section benefits">
+      <div class="section-heading"><div><p class="eyebrow">NOSSO COMPROMISSO</p><h2>Comprar com <em>confiança</em></h2></div></div>
+      <div class="benefit-grid">
+        <article><span>01</span><h3>Informação clara</h3><p>Veja descrição, volume, preço e condições antes de finalizar seu pedido.</p></article>
+        <article><span>02</span><h3>Contato direto</h3><p>Tire dúvidas e confirme disponibilidade com nossa equipe pelo WhatsApp.</p></article>
+        <article><span>03</span><h3>Responsabilidade</h3><p>Comercialização de bebidas alcoólicas somente para maiores de 18 anos.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-main"><a class="brand" href="#"><span class="brand-mark">♛</span><span class="brand-name">JACK <b>IMPORTS</b><small>DISTRIBUIDORA DE BEBIDAS</small></span></a><p>Bebidas selecionadas, atendimento próximo e uma experiência premium.</p><a class="footer-contact" id="footerWhatsapp" href="#" target="_blank" rel="noopener">Falar pelo WhatsApp ↗</a></div>
+    <div class="footer-links"><div><strong>Loja</strong><a href="#categorias">Categorias</a><a href="#produtos">Produtos</a><a href="#sobre">Sobre nós</a></div><div><strong>Atendimento</strong><a href="#contato">Contato</a><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos de uso</a></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Jack Imports. Todos os direitos reservados.</span><span>Venda de bebidas alcoólicas proibida para menores de 18 anos.</span></div>
+  </footer>
+
+  <div class="age-overlay" id="ageOverlay" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div class="age-card"><div class="age-crown">♛</div><p class="eyebrow">BEM-VINDO À JACK IMPORTS</p><h2 id="ageTitle">Você tem <em>18 anos ou mais?</em></h2><p>Este site apresenta bebidas alcoólicas. Para continuar, confirme sua idade conforme a legislação aplicável.</p><div class="age-actions"><button class="button button-gold" id="confirmAge">Sim, tenho 18 anos ou mais</button><button class="button button-outline" id="denyAge">Não tenho 18 anos</button></div><small>Consuma com moderação. Não compartilhe bebidas com menores de idade.</small></div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras" aria-hidden="true">
+    <div class="drawer-head"><div><p class="eyebrow">SUA SELEÇÃO</p><h2>Sacola <em>de compras</em></h2></div><button class="close-button" id="closeCart" aria-label="Fechar carrinho">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-bottom"><div class="subtotal"><span>Subtotal estimado</span><strong id="cartSubtotal">R$ 0,00</strong></div><small>Frete e disponibilidade serão confirmados antes do pagamento.</small><button class="button button-gold full-button" id="checkoutButton">Finalizar pelo WhatsApp ↗</button><button class="clear-cart" id="clearCart">Limpar sacola</button></div>
+  </aside>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

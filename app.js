@@ -7,10 +7,10 @@ const CONFIG = {
 
 // Catálogo de demonstração. Troque nomes, preços e informações pelos produtos reais da Jack Imports.
 const products = [
-  {id:1,name:"Whisky Reserva",category:"Whisky",description:"Perfil marcante • 1 L",price:189.90,tag:"DESTAQUE",art:"",label:"RESERVA"},
-  {id:2,name:"Gin Botânico",category:"Gin",description:"Notas aromáticas • 750 ml",price:99.90,tag:"SELEÇÃO",art:"clear",label:"BOTANIC"},
-  {id:3,name:"Vodka Premium",category:"Vodka",description:"Clássica e versátil • 1 L",price:79.90,tag:"",art:"clear",label:"VODKA"},
-  {id:4,name:"Cerveja Especial",category:"Cervejas",description:"Consulte opções e volumes",price:12.90,tag:"",art:"can",label:"SPECIAL"},
+  {id:1,name:"Ballantine’s Finest 1l",category:"Whisky",description:"Perfil marcante • 1 L",price:189.90,tag:"DESTAQUE",art:"",label:"RESERVA"},
+  {id:2,name:"Johnnie Walker Red Label 750ml",category:"Whisky",description:"Notas aromáticas • 750 ml",price:99.90,tag:"SELEÇÃO",art:"clear",label:"BOTANIC"},
+  {id:3,name:"Johnnie Walker Blonde 750ml",category:"Whisky",description:"Clássica e versátil • 1 L",price:79.90,tag:"",art:"clear",label:"VODKA"},
+  {id:4,name:"OLOFF Vodka 1l",category:"Vodka",description:"Consulte opções e volumes",price:12.90,tag:"",art:"can",label:"SPECIAL"},
   {id:5,name:"Vinho Tinto",category:"Vinhos",description:"Para acompanhar bons momentos",price:69.90,tag:"",art:"red",label:"TINTO"},
   {id:6,name:"Energético",category:"Energéticos",description:"Consulte sabores e tamanhos",price:9.90,tag:"",art:"can",label:"ENERGY"},
   {id:7,name:"Licor Selecionado",category:"Destilados",description:"Uma opção para ocasiões especiais",price:89.90,tag:"",art:"red",label:"LICOR"},
